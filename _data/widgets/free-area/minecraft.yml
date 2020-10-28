@@ -1,0 +1,83 @@
+top: ! '
+<div class="menu-top">
+<a name="menu-top"></a>
+<ul class="nav nav-pills">
+  <li><a href="/p/minecraftpe/">トップ</a></li>
+  <li><a href="#menu">メニュー</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#searchModal"><span class="glyphicon glyphicon-search"></span></a></li>
+</ul>
+<!-- Modal -->
+<div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+<div class="widget-google-cse reset-box-sizing">
+google cse
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+'
+
+top2: ! '
+<div class="menu-top">
+<ul class="nav nav-pills">
+  <li><a href="/p/minecraftpe/">トップ</a></li>
+  <li><a href="#menu">メニュー</a></li>
+  <li><a href="#" data-toggle="modal" data-target="#searchModal"><span class="glyphicon glyphicon-search"></span></a></li>
+</ul>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+  <form action="https://www.google.com/search" method="get" role="form">
+    <fieldset role="search">
+      <input class="form-control" type="search" name="q" results="0" placeholder="Search"/>
+      <input type="hidden" name="sitesearch" value="game-zero.appspot.com/p/minecraftpe/">
+    </fieldset>
+  </form>
+      </div>
+    </div>
+  </div>
+</div>
+'
+
+menu: ! '
+<div class="menu"><a name="menu"></a>
+<h2>メニュー</h2>
+<ul>
+  <li><a href="/p/minecraftpe/">トップページ</a></li>
+</ul>
+
+<ul>
+  <li>アイテム
+    <ul>
+      <li><a href="建材">建材</a></li>
+      <li><a href="材料">材料</a></li>
+      <li><a href="植物">植物</a></li>
+      <li><a href="食料">食料</a></li>
+      <li><a href="道具">道具</a></li>
+      <li><a href="鉱石">鉱石</a></li>
+    </ul>
+  </li>
+  <li>MOB
+    <ul>
+      <li><a href="MOB#動物">動物</a></li>
+      <li><a href="MOB#モンスター">モンスター</a></li>
+    </ul>
+  </li>
+  <li>特殊効果
+    <ul>
+      <li><a href="ポーション">ポーション</a></li>
+      <li><a href="エンチャント">エンチャント</a></li>
+      <li><a href="ビーコン">ビーコン</a></li>
+      <li><a href="コンジット">コンジット</a></li>
+    </ul>
+  </li>
+</ul>
+
+'
