@@ -133,6 +133,7 @@ collections:
       #    - { widget: free-area, name: mobile }
 
   minecraft:
+    permalink: "/:collection/:title:output_ext"
     lang: ja
     theme: minecraft
     title: "マイクラPE攻略(アイテム＆レシピ)"
