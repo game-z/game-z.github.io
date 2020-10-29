@@ -106,6 +106,8 @@ collections:
     output: true
 
   avabel:
+    permalink: "/:collection/:title:output_ext"
+    no_ext: true
     lang: ja
     theme: avabel
     title: "アヴァベル オンライン攻略(アイテム事典)"
@@ -134,6 +136,7 @@ collections:
 
   minecraft:
     permalink: "/:collection/:title:output_ext"
+    no_ext: true
     lang: ja
     theme: minecraft
     title: "マイクラPE攻略(アイテム＆レシピ)"
