@@ -1,6 +1,0 @@
-menu:
-- caption: トップ
-  link: /minecraft/
-- caption: メニュー
-  link: "#menu"
-search: true
