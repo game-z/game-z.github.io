@@ -1,14 +1,14 @@
 ### Site settings
 lang: en
-title: "Your awesome title"
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: "Game Z"
+description: "Game Z"
 #meta_description: "default meta tag description.Google does not recommend that all pages have the same description"
 #meta_keywors: "default meta tag keywors.Google does not recommend that all pages have the same description"
-author: "Your name"
+#author: "Your name"
 #since: "Your site is since YYYY"
 #baseurl: "/my_dir"
 exclude: [ "README.md", "LICENSE", "Gemfile", "Gemfile.lock", "rindow-ghpages-bootstrap.gemspec" ]
-url: "https://yourdomain.com"
+url: "https://game-z.github.io"
 #email: your-email@domain.com
 #twitter_username: your_twitter_username
 #github_username:  your_github_username
@@ -101,9 +101,6 @@ collections:
         - { widget: navv, name: docs, item: menu, caption: "Menu", anchor: "menu" }
         - { widget: free-area, name: docs, item: menu, markdownify: true }
         - { widget: nav, name: docs, item: toc, caption: "Contents" }
-  help:
-    title: "Help"
-    output: true
 
   avabel:
     permalink: "/:collection/:title:output_ext"
@@ -120,6 +117,7 @@ collections:
         cache: true
         widgets:
           - { widget: free-area, name: avabel, item: top }
+          - { widget: search }
       primary:
         cache: true
         widgets:
@@ -149,7 +147,8 @@ collections:
       top:
         cache: true
         widgets:
-          - { widget: free-area, name: minecraft, item: top }
+          - { widget: navb, name: minecraft, item: menu, inline: true }
+          #- { widget: search, inline: true }
       primary:
         cache: true
         widgets:
