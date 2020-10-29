@@ -1,7 +1,6 @@
 menu:
 - caption: トップページ
   link: /minecraft/
-  anchor: menu
 - caption: アイテム
   menu:
   - caption: 建材
