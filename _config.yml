@@ -153,7 +153,7 @@ collections:
         cache: true
         widgets:
           - { widget: free-area, name: ads, item: side }
-          - { widget: free-area, name: minecraft, item: menu, markdownify: true }
+          - { widget: navv, name: minecraft, item: menu }
       header:
         cache: true
         widgets:
