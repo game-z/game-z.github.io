@@ -1,0 +1,12 @@
+---
+layout: document
+title: Search
+---
+{% if "true" or site.google_custom_search_engine_id %}
+{% include widgets/google-cse.html %}
+<div>
+<script async src="https://cse.google.com/cse.js?cx={{ site.google_custom_search_engine_id }}"></script>
+<div class="gcse-searchresults-only"></div>
+</div>
+<!--img src="https://www.google.com/cse/images/google_custom_search_smwide.gif"-->
+{% endif %}
