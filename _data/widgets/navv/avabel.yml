@@ -1,0 +1,197 @@
+menu:
+- caption: トップページ
+  link: /avabel/
+- separator: "========"
+- caption: メニュー
+- separator: "--------"
+- caption: アイテム
+  link: "#item"
+  menu:
+  - caption: 武器
+    link: "#weapon"
+  - caption: 防具
+    link: "#protector"
+  - caption: 収集品
+    link: "#collection"
+  - caption: 消耗品
+    link: "#supply"
+- caption: クエスト
+  link: "#quest"
+  menu:
+  - caption: ノーマル
+    link: "#normal_quest"
+  - caption: イベント
+    link: "#event_quest"
+- caption: 強化/合成
+  link: "#compound"
+  menu:
+  - caption: 鍛冶屋
+    link: "#smith"
+  - caption: 合成屋
+    link: "#compound_station"
+  - caption: クリエイター
+    link: "#creator"
+- caption: アバター
+  link: "#avatar"
+- caption: メモ
+  link: "#memo"
+
+- separator: "========"
+- caption: アイテム
+  anchor: item
+- separator: "--------"
+- caption: 武器
+  anchor: weapon
+  menu:
+  - caption: 短剣
+    link: "武器(短剣)"
+  - caption: 片手剣
+    link: "武器(片手剣)"
+  - caption: 両手剣
+    link: "武器(両手剣)"
+  - caption: 鈍器
+    link: "武器(鈍器)"
+  - caption: 斧
+    link: "武器(斧)"
+  - caption: 片手銃
+    link: "武器(片手銃)"
+  - caption: 両手弓
+    link: "武器(両手弓)"
+  - caption: 杖
+    link: "武器(杖)"
+  - caption: 片手杖
+    link: "武器(片手杖)"
+  - caption: 片手槍
+    link: "武器(片手槍)"
+  - caption: 両手槍
+    link: "武器(両手槍)"
+  - caption: 両手銃
+    link: "武器(両手銃)"
+  - caption: ナックル
+    link: "武器(ナックル)"
+- caption: 防具
+  anchor: protector
+  menu:
+  - caption: 頭
+    link: "防具(頭)"
+  - caption: 上半身
+    link: "防具(上半身)"
+  - caption: 下半身
+    link: "防具(下半身)"
+  - caption: 装飾品
+    link: "防具(装飾品)"
+  - caption: 盾
+    link: "防具(盾)"
+  - caption: 宝石
+    link: "防具(宝石)"
+- caption: 収集品
+  anchor: collection
+  menu:
+  - caption: 収集品
+    link: "収集品(収集品)"
+  - caption: 進化アイテム
+    link: "収集品(進化アイテム)"
+  - caption: 箱関連
+    link: "収集品(箱関連)"
+- caption: 消耗品
+  anchor: supply
+  menu:
+  - caption: 回復薬
+    link: "消耗品(回復薬)"
+  - caption: 箱
+    link: "消耗品(箱)"
+  - caption: 魂晶
+    link: "消耗品(魂晶)"
+  - caption: その他
+    link: "消耗品(その他)"
+
+- separator: "========"
+- caption: クエスト
+  anchor: quest
+- separator: "--------"
+- caption: ノーマル
+  anchor: normal_quest
+  menu:
+  - caption: 草原エリア
+    link: "クエスト(草原エリア)"
+  - caption: 湿原エリア
+    link: "クエスト(湿原エリア)"
+  - caption: 雪山エリア
+    link: "クエスト(雪山エリア)"
+  - caption: 洞窟エリア
+    link: "クエスト(洞窟エリア)"
+  - caption: 砂漠エリア
+    link: "クエスト(砂漠エリア)"
+  - caption: 美容院クエスト
+    link: "クエスト(美容院クエスト)"
+  - caption: エモーション
+    link: "クエスト(エモーション)"
+  - caption: スキル解放
+    link: "クエスト(スキル解放)"
+- caption: イベント
+  anchor: event_quest
+
+- separator: "========"
+- caption: 強化/合成
+  anchor: compound
+- separator: "--------"
+- caption: 鍛冶屋
+  anchor: smith
+  menu:
+  - caption: 強化
+    link: "鍛冶屋(強化)"
+  - caption: 進化
+    link: "鍛冶屋(進化)"
+  - caption: 属性付与
+    link: "鍛冶屋(属性付与)"
+  - caption: 種族タイプ付与
+    link: "鍛冶屋(種族タイプ付与)"
+- caption: 合成屋
+  anchor: compound_station
+  menu:
+  - caption: 消耗品
+    link: "合成屋(消耗品)"
+  - caption: 特殊アイテム
+    link: "合成屋(特殊アイテム)"
+  - caption: 武器製造
+    link: "合成屋(武器製造)"
+  - caption: 防具製造
+    link: "合成屋(防具製造)"
+  - caption: アクセサリー
+    link: "合成屋(アクセサリー)"
+  - caption: 装飾品アバター
+    link: "合成屋(装飾品アバター)"
+  - caption: 武器カスタマイズ
+    link: "合成屋(武器カスタマイズ)"
+  - caption: 召喚書
+    link: "合成屋(召喚書)"
+- caption: クリエイター
+  anchor: creator
+  menu:
+  - caption: アイテム生産
+    link: "クリエイター(アイテム生産)"
+- caption: 武具スロット
+  anchor: slot
+  menu:
+  - caption: 魂晶
+    link: "消耗品(魂晶)"
+  - caption: スロット解放器
+    link: "消耗品(その他)#slot"
+
+- separator: "========"
+- caption: アバター
+  anchor: avatar
+  menu:
+  - caption: 無課金アバター武器
+    link: "無課金アバター武器"
+  - caption: 無課金アバター防具
+    link: "無課金アバター防具"
+
+- separator: "========"
+- caption: メモ
+  anchor: memo
+  menu:
+  - caption: ウォリアー
+    link: "ウォリアー"
+  - caption: 武具性能比較
+    link: "武具性能比較"

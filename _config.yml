@@ -116,13 +116,13 @@ collections:
       top:
         cache: true
         widgets:
-          - { widget: free-area, name: avabel, item: top }
-          - { widget: search }
+          #- { widget: free-area, name: avabel, item: top }
+          - { widget: navb, name: avabel, item: menu, inline: true }
       primary:
         cache: true
         widgets:
           - { widget: free-area, name: ads, item: side }
-          - { widget: free-area, name: avabel, item: menu, markdownify: true }
+          - { widget: navv, name: avabel, item: menu, anchor: menu }
       header:
         cache: true
         widgets:
@@ -143,6 +143,7 @@ collections:
     meta_description: disable
     output: true
     navigator: disable
+    search_engine_id: 000000
     sidearea:
       top:
         cache: true
