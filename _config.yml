@@ -112,6 +112,7 @@ collections:
     keywords: アヴァベル攻略,アヴァベルオンライン,AVABEL ONLINE
     output: true
     navigator: disable
+    search_engine_id: "012660066390906066162:4vjjdvvbdes"
     sidearea:
       top:
         cache: true
@@ -143,7 +144,7 @@ collections:
     meta_description: disable
     output: true
     navigator: disable
-    search_engine_id: 000000
+    search_engine_id: "012660066390906066162:th5euhneknw"
     sidearea:
       top:
         cache: true
