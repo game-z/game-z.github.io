@@ -11,8 +11,9 @@
 #  widgets:
 #    - { widget: search, caption: "Search" }
 #    - { widget: links, caption: "Links" }
-#top:
-#  widgets:
+top:
+  widgets:
+    - { widget: free-area, name: ads, item: side }
 #    - { widget: google-cse }
 #floating:
 #  widgets:
