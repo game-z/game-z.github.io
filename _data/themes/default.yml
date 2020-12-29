@@ -18,14 +18,14 @@ header_description_class: "header-description"
 #content_text_color: "white"
 #wallpaper_repeat: repeat
 #navbar_brand_icon: glyphicon-home
-navbar_brand_caption: "Site Title"
+navbar_brand_caption: "Game-z"
 #navbar_brand_image: /assets/themes/default/img/apple-touch-icon-precomposed.png
 #navbar_brand_image_alt: brand
 #navbar_layout: top
 navbar_style: navbar-expand-lg navbar-light bg-light
 navbar_layout: top # top or middle or bottom or none
 #navbar_style: navbar-default navbar-fixed-top navbar-inverse
-navbar_search_box: true
+#navbar_search_box: true
 sidearea_layout: left # right or left or both or none
 table_style: table-striped
 doc_navigator: bottom # top or bottom or both or none

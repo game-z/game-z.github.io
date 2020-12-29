@@ -60,20 +60,20 @@ appearance:
 
 ### Navigation Bar
 sitesearchscript: true
-navbar:
-  menu:
-    - caption: "Projects"
-      menu:
-        - { caption: "Creating Web pages", link: "#"}
-        - { caption: "Something else here", link: "#"}
-        - { separator: "divider" }
-        - { caption: "miscellaneous", separator: "dropdown-header" }
-        - { caption: "Downloads", link: "#"}
-    - { caption: "Blog", link: "/blog/" }
-    - { caption: "Documents", link: "/docs/" }
-    - { caption: "Help", link: "/help/" }
-    - { caption: "Sitemap", link: "/sitemap/" }
-    - { caption: "About", link: "/about/" }
+#navbar:
+#  menu:
+#    - caption: "Projects"
+#      menu:
+#        - { caption: "Creating Web pages", link: "#"}
+#        - { caption: "Something else here", link: "#"}
+#        - { separator: "divider" }
+#        - { caption: "miscellaneous", separator: "dropdown-header" }
+#        - { caption: "Downloads", link: "#"}
+#    - { caption: "Blog", link: "/blog/" }
+#    - { caption: "Documents", link: "/docs/" }
+#    - { caption: "Help", link: "/help/" }
+#    - { caption: "Sitemap", link: "/sitemap/" }
+#    - { caption: "About", link: "/about/" }
 
 footer:
   links:
