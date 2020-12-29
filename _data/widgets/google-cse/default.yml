@@ -1,8 +1,7 @@
 button:
-  class: btn btn-secondary
   caption: Search
+  class: btn btn-secondary
 field:
   size: 20
-  placeholder: Search
 form:
   inline: true

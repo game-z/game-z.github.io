@@ -1,0 +1,6 @@
+menu:
+- caption: Top
+  link: /minecraft_en/
+- caption: Menu
+  link: "#menu"
+search: true

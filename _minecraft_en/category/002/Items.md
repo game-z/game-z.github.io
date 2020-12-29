@@ -1,0 +1,123 @@
+---
+title: Items
+layout: document
+---
+- Bed
+- Chest
+- Shulker Box
+- Record
+- Signs
+- Buckets
+- Mob Skulls
+- Enchanted Books
+- Boats
+- Rails
+- Minecarts
+- Buttons
+- Pressure Plates
+- Banners
+- Banner Patterns
+- Fireworks
+- Firework Charges
+- Job site block
+    - Cartography Table
+    - Fletching Table
+    - Smithing Table
+    - Blast Furnance
+    - Smoker
+    - Brewing Stand
+    - Grindstone
+    - Lectern
+    - Cauldron
+    - Composter
+    - Barrel
+    - Stonecutter
+    - Loom
+- Redstone tools
+    - Note Block
+    - Jukebox
+    - Redstone Lamp
+    - Redstone
+    - Block of Redstone
+    - Redstone Torch
+    - Lever
+    - Observer
+    - Daylight Sensor
+    - Redstone Repeater
+    - Redstone Comparator
+    - Hopper
+    - Dropper
+    - Dispenser
+    - Piston
+    - Sticky Piston
+    - TNT
+    -
+- Others
+    - Stick
+    - Torch
+    - Sea Pickle
+    - Lantern
+    - Crafting table
+    - Beehive
+    - Campfire
+    - Furnance
+    - Anvil
+    - Slightly Damaged Anvil
+    - Very Damaged Anvil
+    - Enchantment Table
+    - Bookshelf
+    - Armor Stand
+    - Glowstone Dust
+    - Glowstone
+    - Sea Lantern
+    - Painting
+    - Item Frame
+    - Honey Bottle
+    - Flower Pot
+    - Bowl
+    - Beacon
+    - Bell
+    - Conduit
+    - End Portal
+    - Coal
+    - Charcoal
+    - Diamond
+    - Iron Nugget
+    - Iron Ingot
+    - Gold Nugget
+    - Emerald
+    - Nether Quartz
+    - Clay
+    - Brick
+    - Nether Brick
+    - Prismarine
+    - Prismarine Crystals
+    - Nautilus Shell
+    - Heart of the Sea
+    - Scute
+    - Phantom Membrane
+    - String
+    - Feather
+    - Flint
+    - Gunpowder
+    - Leather
+    - Rabbit Hide
+    - Rabbits Foot
+    - Fire Charge
+    - Blaze Rod
+    - Blaze Powder
+    - Magma Cream
+    - Fermented Spider Eye
+    - Dragons Breath
+    - Shulker Shell
+    - Ghast Tear
+    - Slimeball
+    - Ender Pearl
+    - End of Ender
+    - Nether Star
+    - End Rod
+    - End Crystal
+    - Paper
+    - Book
+    - Book and Quill
+    - Name Tag
