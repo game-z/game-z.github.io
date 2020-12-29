@@ -39,17 +39,17 @@ appearance:
   #wallpaper_repeat: repeat
 
 ### Blog
-blogpagination: true
-paginate: 5
-paginate_path: "blog/page:num/" # DON'T TOUCH THIS PATH.
-blog:
-  title: "Blog Title"
-  description: "Blog description"
-  title_position: article
-  enable_author: true
-  comment: true
-  share: true
-  category: true
+#blogpagination: true
+#paginate: 5
+#paginate_path: "blog/page:num/" # DON'T TOUCH THIS PATH.
+#blog:
+#  title: "Blog Title"
+#  description: "Blog description"
+#  title_position: article
+#  enable_author: true
+#  comment: true
+#  share: true
+#  category: true
   #sidearea:
   #  primary:
   #    widgets:
@@ -82,26 +82,6 @@ footer:
 
 ### Document collections
 collections:
-  docs:
-    #permalink: "/:collection/:title:output_ext"
-    title: "Documents"
-    description: "some description"
-    #meta_description: "default meta tag description.Google does not recommend that all pages have the same description"
-    #meta_keywors: "default meta tag keywors.Google does not recommend that all pages have the same description"
-    output: true
-    #theme: docs
-    comment: true
-    share: true
-    #lang: en
-    #navigator: disable
-    sidearea:
-      primary:
-        widgets:
-        - { widget: search, caption: "Search" }
-        - { widget: navv, name: docs, item: menu, caption: "Menu", anchor: "menu" }
-        - { widget: free-area, name: docs, item: menu, markdownify: true }
-        - { widget: nav, name: docs, item: toc, caption: "Contents" }
-
   avabel:
     permalink: "/:collection/:title:output_ext"
     no_ext: true
@@ -112,6 +92,7 @@ collections:
     keywords: アヴァベル攻略,アヴァベルオンライン,AVABEL ONLINE
     output: true
     navigator: disable
+    search_engine_id: 000000
     sidearea:
       top:
         cache: true
@@ -155,6 +136,38 @@ collections:
         widgets:
           - { widget: free-area, name: ads, item: side }
           - { widget: navv, name: minecraft, item: menu, anchor: menu }
+      header:
+        cache: true
+        widgets:
+          - { widget: free-area, name: ads, item: mobile100 }
+      #floating:
+      #  cache: true
+      #  widgets:
+      #    - { widget: free-area, name: mobile }
+
+  minecraft_en:
+    permalink: "/:collection/:title:output_ext"
+    no_ext: true
+    lang: en
+    theme: minecraft
+    title: "Minecraft PE Crafting Recipes"
+    description: "Game reference guide for Minecraft (Bedrock Edition). We focus on crafting recipes (Items,Materials,Methods)."
+    keywords: "Minecraft,Pocket Edition,Wiki"
+    meta_description: disable
+    output: true
+    navigator: disable
+    search_engine_id: 000000
+    sidearea:
+      top:
+        cache: true
+        widgets:
+          - { widget: navb, name: minecraft_en, item: menu, inline: true }
+          #- { widget: search, inline: true }
+      primary:
+        cache: true
+        widgets:
+          - { widget: free-area, name: ads, item: side }
+          - { widget: navv, name: minecraft_en, item: menu, anchor: menu }
       header:
         cache: true
         widgets:

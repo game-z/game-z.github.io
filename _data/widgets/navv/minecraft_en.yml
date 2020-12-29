@@ -1,0 +1,24 @@
+menu:
+- caption: Top page
+  link: /minecraft_en/
+- separator: ' '
+- caption: Items
+  menu:
+  - caption: Blocks
+    link: Blocks
+  - caption: Materials
+    link: Materials
+  - caption: Plants
+    link: Plants
+  - caption: Foods
+    link: Foods
+  - caption: Tools
+    link: Tools
+  - caption: Ore
+    link: Ore
+- caption: MOB
+  menu:
+  - caption: Animals
+    link: MOB#Animals
+  - caption: Monsters
+    link: MOB#Monsters
