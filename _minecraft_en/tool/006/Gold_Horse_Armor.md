@@ -1,0 +1,14 @@
+---
+title: Gold Horse Armor
+layout: document
+---
+## Detail
+
+|Kind|Content|
+|---|---|
+|Description|Gold Horse Armor|
+|Type|[Tools](Tools)|
+|Place|[Chest](Chest) in the Stronghold and the Abandoned mineshaft etc.|
+
+Raise the defense power on a [Horse](Horse).
+
