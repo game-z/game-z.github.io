@@ -3,4 +3,7 @@ menu:
   link: /minecraft/
 - caption: メニュー
   link: "#menu"
-search: true
+search:
+  box: true
+  #right: true
+  placeholder: Search
