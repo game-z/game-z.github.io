@@ -102,7 +102,7 @@ collections:
       primary:
         cache: true
         widgets:
-          #- { widget: free-area, name: ads, item: side }
+          - { widget: free-area, name: ads, item: side }
           - { widget: navv, name: avabel, item: menu, anchor: menu }
       header:
         cache: true
@@ -134,7 +134,7 @@ collections:
       primary:
         cache: true
         widgets:
-          #- { widget: free-area, name: ads, item: side }
+          - { widget: free-area, name: ads, item: side }
           - { widget: navv, name: minecraft, item: menu, anchor: menu }
       header:
         cache: true
@@ -166,7 +166,7 @@ collections:
       primary:
         cache: true
         widgets:
-          #- { widget: free-area, name: ads, item: side }
+          - { widget: free-area, name: ads, item: side }
           - { widget: navv, name: minecraft_en, item: menu, anchor: menu }
       header:
         cache: true
