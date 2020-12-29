@@ -12,7 +12,7 @@ url: "https://game-z.github.io"
 #email: your-email@domain.com
 #twitter_username: your_twitter_username
 #github_username:  your_github_username
-#google_analytics_id: UA-XXXXXXXX-XX
+google_analytics_id: UA-12321104-11
 #google_site_verification: XXXXXXXXXXXXXXXXXXXXXXXXXXX
 #google_custom_search_engine_id: "XXXXXXXX:XXXXXXXXXXXXXXXXXXX"
 #disqus_shortname: your_disqus_shortname
@@ -77,8 +77,8 @@ navbar:
 
 footer:
   links:
-    - { caption: "About", link: "/about/" }
-    - { caption: "Sitemap", link: "/sitemap/" }
+    #- { caption: "About", link: "/about/" }
+    #- { caption: "Sitemap", link: "/sitemap/" }
 
 ### Document collections
 collections:
@@ -92,7 +92,7 @@ collections:
     keywords: アヴァベル攻略,アヴァベルオンライン,AVABEL ONLINE
     output: true
     navigator: disable
-    search_engine_id: 000000
+    search_engine_id: "012660066390906066162:4vjjdvvbdes"
     sidearea:
       top:
         cache: true
@@ -102,12 +102,12 @@ collections:
       primary:
         cache: true
         widgets:
-          - { widget: free-area, name: ads, item: side }
+          #- { widget: free-area, name: ads, item: side }
           - { widget: navv, name: avabel, item: menu, anchor: menu }
       header:
         cache: true
         widgets:
-          - { widget: free-area, name: ads, item: mobile100 }
+          #- { widget: free-area, name: ads, item: mobile100 }
       #floating:
       #  cache: true
       #  widgets:
@@ -124,7 +124,7 @@ collections:
     meta_description: disable
     output: true
     navigator: disable
-    search_engine_id: 000000
+    search_engine_id: "012660066390906066162:th5euhneknw"
     sidearea:
       top:
         cache: true
@@ -134,12 +134,12 @@ collections:
       primary:
         cache: true
         widgets:
-          - { widget: free-area, name: ads, item: side }
+          #- { widget: free-area, name: ads, item: side }
           - { widget: navv, name: minecraft, item: menu, anchor: menu }
       header:
         cache: true
         widgets:
-          - { widget: free-area, name: ads, item: mobile100 }
+          #- { widget: free-area, name: ads, item: mobile100 }
       #floating:
       #  cache: true
       #  widgets:
@@ -156,7 +156,7 @@ collections:
     meta_description: disable
     output: true
     navigator: disable
-    search_engine_id: 000000
+    search_engine_id: "012660066390906066162:8g7g-w3nf1u"
     sidearea:
       top:
         cache: true
@@ -166,12 +166,12 @@ collections:
       primary:
         cache: true
         widgets:
-          - { widget: free-area, name: ads, item: side }
+          #- { widget: free-area, name: ads, item: side }
           - { widget: navv, name: minecraft_en, item: menu, anchor: menu }
       header:
         cache: true
         widgets:
-          - { widget: free-area, name: ads, item: mobile100 }
+          #- { widget: free-area, name: ads, item: mobile100 }
       #floating:
       #  cache: true
       #  widgets:
