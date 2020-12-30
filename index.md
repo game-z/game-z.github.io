@@ -3,6 +3,7 @@ layout: page
 header: disable
 title: ゲーム攻略
 description: ゲーム攻略 Game guide and walkthough
+redirect: "/minecraft/"
 ---
 Game-z
 
