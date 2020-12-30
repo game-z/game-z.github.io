@@ -13,6 +13,7 @@ url: "https://game-z.github.io"
 #twitter_username: your_twitter_username
 #github_username:  your_github_username
 google_analytics_id: UA-12321104-11
+google_ad_client_id: ca-pub-5217525105457114
 #google_site_verification: XXXXXXXXXXXXXXXXXXXXXXXXXXX
 #google_custom_search_engine_id: "XXXXXXXX:XXXXXXXXXXXXXXXXXXX"
 #disqus_shortname: your_disqus_shortname
@@ -102,7 +103,7 @@ collections:
       primary:
         cache: true
         widgets:
-          - { widget: free-area, name: ads, item: side }
+          #- { widget: free-area, name: ads, item: side }
           - { widget: navv, name: avabel, item: menu, anchor: menu }
       header:
         cache: true
@@ -134,7 +135,7 @@ collections:
       primary:
         cache: true
         widgets:
-          - { widget: free-area, name: ads, item: side }
+          #- { widget: free-area, name: ads, item: side }
           - { widget: navv, name: minecraft, item: menu, anchor: menu }
       header:
         cache: true
@@ -166,7 +167,7 @@ collections:
       primary:
         cache: true
         widgets:
-          - { widget: free-area, name: ads, item: side }
+          #- { widget: free-area, name: ads, item: side }
           - { widget: navv, name: minecraft_en, item: menu, anchor: menu }
       header:
         cache: true

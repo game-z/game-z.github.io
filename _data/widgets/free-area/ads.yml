@@ -2,7 +2,7 @@ sample: ! '
 This is Free Area Text at a side widget.
 '
 side: ! '
-<script data-ad-client="ca-pub-5217525105457114" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ads side
 '
 mobile: ! '
 ads mobile
